@@ -1,0 +1,11 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.19.0)
+
+# Set the project name
+SET( PROJECT_NAME AlgorithmTest )
+PROJECT(${PROJECT_NAME})
+
+# Set the header directory
+INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/src)
+
+# Link Source files
+ADD_EXECUTABLE( ${PROJECT_NAME} src/main.cpp)
