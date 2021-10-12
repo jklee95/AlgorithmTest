@@ -8,4 +8,5 @@ PROJECT(${PROJECT_NAME})
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/src)
 
 # Link Source files
-ADD_EXECUTABLE( ${PROJECT_NAME} src/main.cpp)
+ADD_EXECUTABLE( BaekJoon src/main_baek.cpp)
+ADD_EXECUTABLE( Programmers src/main_program.cpp)
