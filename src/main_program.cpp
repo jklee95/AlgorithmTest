@@ -1,18 +1,24 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <string>
+
 using namespace std;
+
+int solution(int n, vector<vector<int>> computers) {
+	int answer = 0;
+	return answer;
+}
 
 int main()
 {
-	vector<int> arr = { 1, 2, 3'0, 4};
-	double answer = 0;
+	cin.tie(nullptr);
+	ios::sync_with_stdio(false);
 
-	for (int i : arr)
-	{
-		answer += i;
-	}
+	int n = 3;
+	vector<vector<int>> computers = { {1, 1, 0} ,{1, 1, 0}, {0, 0, 1} };
 
-	cout << answer << endl;
-	//for (int i : arr ) cout << i << ", ";
+	cout << solution(n, computers);
 
 	return 0;
 }

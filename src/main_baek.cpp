@@ -1,9 +1,13 @@
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <string>
+
 using namespace std;
 
 int main()
 {
-	cin.tie(NULL);
+	cin.tie(nullptr);
 	ios::sync_with_stdio(false);
 
 	int C, N;
